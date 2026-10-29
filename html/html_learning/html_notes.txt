@@ -26,3 +26,8 @@ HTML formatting:
 <ins> - Inserted text
 <sub> - Subscript text
 <sup> - Superscript text
+
+HTML Lists:
+Use the HTML <dl> element to define a description list
+Use the HTML <dt> element to define the description term
+Use the HTML <dd> element to describe the term in a description list

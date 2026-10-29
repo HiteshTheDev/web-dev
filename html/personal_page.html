@@ -1,19 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="icon" type="image/png" href="images/Hitesh%20Image.png">
         <meta charset="UTF-8">
-        <title>Personal Page</title>
+        <title>My Personal Webpage</title>
+        <link rel="icon" type="image/png" href="images/favicon.png" >
+        <style>
+            .display_listBtn {
+                color: white;
+                background-color: green;
+            }
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+                margin: auto;
+            }
+            body {
+                font-size: 150%;
+            }
+        </style>
     </head>
     <body>
-        <h1>Good Morning</h1>
-        <p>This is my first HTML project that i was told to build by <a href="//w3schools.com" target="_blank">W3 Schools</a>. BTW i am Hitesh Kumar</p>
-        <p>Hi so this is the <mark>introductory paragraph</mark> that i am told to build. So i, <strong>Hitesh Kumar</strong> is a class 9 <i>student</i> in <a href="https://loyolatelco.com" target="_blank">Loyola School, Telco</a> as of now. I live in <b>Jamshedpur</b>.</p>
-        <h2>Hobbies</h2>
-        <ul>Coding
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JS</li></ul>
-        <img src="https://www.w3schools.com/html/img_chania.jpg" alt="some sort of shi">
+        <h1 style="text-align: center;">About Me</h1>
+        <p>So my name is <strong>Hitesh Kumar</strong>. I am an aspiring AI engineer. You can find me on <a href="https://github.com/hiteshthedev" target="_blank">Github</a>. My dream company <strong>Microsoft</strong> but sadly, it is Google at the moment but comapnies like IBM is als fine. Oh BTW, I just realized that I forgot to tell you all about my hobbies and academic life.
+        <br>
+        So right now (the date of writing this html website), I am a class 9 student studying in <a href="https://loyolatelco.com" target="_blank">Loyola School, Telco</a> in Jamshedpur.
+        <br>
+        I like coding a lot and ofc, the reason is obvious. The coding languages which I am learning are:
+        <table style="width: 50%; text-align: left;">
+            <tr>
+                <th>Language</th>
+                <th>Status (Learning/Completed)</th>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Learning</td>
+            </tr>
+            <tr>
+                <td>MySQL</td>
+                <td>Learning</td>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>Learning</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Learning</td>
+            </tr>
+            <tr>
+                <td>JS</td>
+                <td>Learning</td>
+            </tr>
+        </table>
+        <br>
+        I have also created two web pages in pure Python and they are being displayed below and they are interactive as well using iframe :)
+        <br>
+        <iframe 
+            src="https://currency-converter1714.streamlit.app/?embed=true" 
+            title="Currency Converter"
+            height="450"
+            width="100%">
+        </iframe>
+        <iframe 
+            src="https://web-calculator1714.streamlit.app/?embed=true" 
+            title="Multifunctional Web Calculator"
+            height="450"
+            width="100%">
+        </iframe>
+    </p>
     </body>
 </html>

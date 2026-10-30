@@ -2,8 +2,9 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My Personal Webpage</title>
-        <link rel="icon" type="image/png" href="images/favicon.png" >
+        <link rel="icon" type="image/png" href="images/favicon.png">
         <style>
             .display_listBtn {
                 color: white;
@@ -16,16 +17,31 @@
             }
             body {
                 font-size: 150%;
+                font-family: sans-serif;
+            }
+            .iframe-container {
+                display: flex;
+                gap: 16px;
+                width: 100%;
+                margin-top: 15px;
+            }
+            .iframe-container iframe {
+                flex: 1;
+                height: 450px;
+                border: 1px solid #ccc;
+                border-radius: 8px;
             }
         </style>
     </head>
     <body>
         <h1 style="text-align: center;">About Me</h1>
         <p>So my name is <strong>Hitesh Kumar</strong>. I am an aspiring AI engineer. You can find me on <a href="https://github.com/hiteshthedev" target="_blank">Github</a>. My dream company <strong>Microsoft</strong> but sadly, it is Google at the moment but comapnies like IBM is als fine. Oh BTW, I just realized that I forgot to tell you all about my hobbies and academic life.
-        <br>
+        <br><br>
         So right now (the date of writing this html website), I am a class 9 student studying in <a href="https://loyolatelco.com" target="_blank">Loyola School, Telco</a> in Jamshedpur.
-        <br>
+        <br><br>
         I like coding a lot and ofc, the reason is obvious. The coding languages which I am learning are:
+        </p>
+
         <table style="width: 50%; text-align: left;">
             <tr>
                 <th>Language</th>
@@ -52,21 +68,21 @@
                 <td>Learning</td>
             </tr>
         </table>
-        <br>
-        I have also created two web pages in pure Python and they are being displayed below and they are interactive as well using iframe :)
-        <br>
-        <iframe 
-            src="https://currency-converter1714.streamlit.app/?embed=true" 
-            title="Currency Converter"
-            height="450"
-            width="100%">
-        </iframe>
-        <iframe 
-            src="https://web-calculator1714.streamlit.app/?embed=true" 
-            title="Multifunctional Web Calculator"
-            height="450"
-            width="100%">
-        </iframe>
-    </p>
+
+        <p>I have also created two web pages in pure Python and they are being displayed below and they are interactive as well using iframe :)</p>
+
+        <div class="iframe-container">
+            <iframe 
+                src="https://currency-converter1714.streamlit.app/?embed=true" 
+                title="Currency Converter"
+                id="curr_conv">
+            </iframe>
+            <iframe 
+                src="https://web-calculator1714.streamlit.app/?embed=true" 
+                title="Multifunctional Web Calculator"
+                id="web_calc">
+            </iframe>
+        </div>
+        
     </body>
 </html>

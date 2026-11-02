@@ -31,3 +31,10 @@ HTML Lists:
 Use the HTML <dl> element to define a description list
 Use the HTML <dt> element to define the description term
 Use the HTML <dd> element to describe the term in a description list
+
+HTML computercode:
+The <kbd> element defines keyboard input
+The <samp> element defines sample output from a computer program
+The <code> element defines a piece of computer code
+The <var> element defines a variable in programming or in a mathematical expression
+The <pre> element defines preformatted text
